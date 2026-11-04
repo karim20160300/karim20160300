@@ -2,7 +2,7 @@
 
 # Karim Hamdy: Backend & AI Engineering, Automation Flows, and Real-time Systems
 
-**TL;DR:** I'm **Karim Hamdy**, a backend and AI engineer who builds with **Laravel and PHP**. I connect apps to **any AI provider** (OpenAI, Claude, Gemini, open-source and local models), design **automation flows** that run the boring parts of a business, and build **Growth AI** systems that score leads, personalise outreach and learn from results. Underneath it all are solid APIs, real-time events and location-aware data.
+I'm **Karim Hamdy**, a backend and AI engineer who builds with **Laravel and PHP**. I connect apps to **any AI provider** (OpenAI, Claude, Gemini, open-source and local models), design **automation flows** that run the boring parts of a business, and build **Growth AI** systems that score leads, personalise outreach and learn from results. Underneath it all are solid APIs, real-time events and location-aware data.
 
 * **AI integrations**: One backend, any model, with fallbacks, cost tracking and clean abstractions.
 * **Automation flows**: n8n, Make, Zapier, webhooks and custom Laravel pipelines.
