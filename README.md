@@ -182,13 +182,15 @@ Echo.private(`trips.${tripId}`).listen('TripUpdated', e => updateMap(e.trip));
 ## GitHub pulse
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=karim20160300&show_icons=true&hide_border=true&bg_color=0b0f1a&title_color=ff2d55&icon_color=42d392&text_color=e6edf3" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=karim20160300&layout=compact&hide_border=true&bg_color=0b0f1a&title_color=ff2d55&text_color=e6edf3" alt="Top languages" />
+  <img src="assets/generated/stats.svg" width="440" alt="GitHub stats" />
+  <img src="assets/generated/languages.svg" width="440" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=karim20160300&bg_color=0b0f1a&color=e6edf3&line=ff2d55&point=42d392&area=true&hide_border=true" alt="Contribution graph" />
+  <img src="assets/generated/snake.svg" alt="Contribution graph being eaten by a snake" />
 </p>
+
+<p align="center"><sub>Generated daily by GitHub Actions from my live GitHub data.</sub></p>
 
 ## Let's connect
 
