@@ -1,10 +1,10 @@
 ![Karim Hamdy](assets/banner.svg)
 
-# Karim Hamdy: Backend & AI Engineering, Automation Flows, and Real-time Systems
+# Karim Hamdy: Software & AI Engineering, Automation Flows, and Real-time Systems
 
-I'm **Karim Hamdy**, a backend and AI engineer who builds with **Laravel and PHP**. I connect apps to **any AI provider** (OpenAI, Claude, Gemini, open-source and local models), design **automation flows** that run the boring parts of a business, and build **Growth AI** systems that score leads, personalise outreach and learn from results. Underneath it all are solid APIs, real-time events and location-aware data.
+I'm **Karim Hamdy**, a software and AI engineer who builds with **Laravel and PHP**. I connect apps to **any AI provider** (OpenAI, Claude, Gemini, open-source and local models), design **automation flows** that run the boring parts of a business, and build **Growth AI** systems that score leads, personalise outreach and learn from results. Underneath it all are solid APIs, real-time events and location-aware data.
 
-* **AI integrations**: One backend, any model, with fallbacks, cost tracking and clean abstractions.
+* **AI integrations**: One software, any model, with fallbacks, cost tracking and clean abstractions.
 * **Automation flows**: n8n, Make, Zapier, webhooks and custom Laravel pipelines.
 * **Growth AI**: Lead scoring, AI-written outreach, chatbots and support triage.
 
@@ -198,4 +198,4 @@ Echo.private(`trips.${tripId}`).listen('TripUpdated', e => updateMap(e.trip));
   <a href="https://github.com/karim20160300?tab=repositories"><img src="https://img.shields.io/badge/All_Repos-0b0f1a?style=for-the-badge&logo=github&logoColor=e6edf3" alt="Repositories" /></a>
 </p>
 
-<p align="center"><sub>Open to AI integration, automation and backend projects. If it can be automated, made smarter or updated live, I'm interested.</sub></p>
+<p align="center"><sub>Open to AI integration, automation and software projects. If it can be automated, made smarter or updated live, I'm interested.</sub></p>
