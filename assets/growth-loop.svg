@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f1a"/><stop offset="1" stop-color="#14101f"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+<text x="600" y="44" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#e6edf3">The AI Growth Loop · automations that learn</text>
+<path id="loop" d="M140 160 H1060 Q1110 160 1110 210 Q1110 260 1060 260 H140 Q90 260 90 210 Q90 160 140 160 Z" fill="none" stroke="#ffd166" stroke-opacity=".3" stroke-width="2" stroke-dasharray="6 6"/>
+<circle r="7" fill="#ffd166" filter="url(#g)"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#loop"/></animateMotion></circle>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif" text-anchor="middle">
+ <g transform="translate(160,160)"><rect x="-80" y="-58" width="160" height="80" rx="14" fill="#121827" stroke="#ff2d55" stroke-width="2"/><text y="-26" font-size="17" font-weight="700" fill="#ff2d55">1 · Trigger</text><text y="-4" font-size="12" fill="#8b9bb4">form · webhook · event</text></g>
+ <g transform="translate(380,160)"><rect x="-80" y="-58" width="160" height="80" rx="14" fill="#121827" stroke="#a78bfa" stroke-width="2"/><text y="-26" font-size="17" font-weight="700" fill="#a78bfa">2 · Enrich</text><text y="-4" font-size="12" fill="#8b9bb4">LLM reads &amp; classifies</text></g>
+ <g transform="translate(600,160)"><rect x="-80" y="-58" width="160" height="80" rx="14" fill="#121827" stroke="#4cc9f0" stroke-width="2"/><text y="-26" font-size="17" font-weight="700" fill="#4cc9f0">3 · Decide</text><text y="-4" font-size="12" fill="#8b9bb4">score · route · prioritise</text></g>
+ <g transform="translate(820,160)"><rect x="-80" y="-58" width="160" height="80" rx="14" fill="#121827" stroke="#42d392" stroke-width="2"/><text y="-26" font-size="17" font-weight="700" fill="#42d392">4 · Act</text><text y="-4" font-size="12" fill="#8b9bb4">message · CRM · task</text></g>
+ <g transform="translate(1040,160)"><rect x="-80" y="-58" width="160" height="80" rx="14" fill="#121827" stroke="#ffd166" stroke-width="2"/><text y="-26" font-size="17" font-weight="700" fill="#ffd166">5 · Measure</text><text y="-4" font-size="12" fill="#8b9bb4">results feed back in</text></g>
+ <text x="600" y="250" font-family="Consolas,Menlo,monospace" font-size="13" fill="#8b9bb4">lead scoring · personalised outreach · support triage · content at scale</text>
+</g>
+</svg>

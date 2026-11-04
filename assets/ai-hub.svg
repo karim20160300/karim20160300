@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f1a"/><stop offset="1" stop-color="#160f26"/></linearGradient>
+ <radialGradient id="core"><stop offset="0" stop-color="#ff2d55" stop-opacity=".55"/><stop offset="1" stop-color="#ff2d55" stop-opacity="0"/></radialGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="520" rx="18" fill="url(#bg)"/>
+<text x="600" y="46" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#e6edf3">AI Integration Hub · one backend, any model, every workflow</text>
+<text x="230" y="90" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#a78bfa">AI PROVIDERS</text>
+<text x="970" y="90" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#42d392">AUTOMATIONS &amp; APPS</text>
+<g stroke-width="2" fill="none" stroke-dasharray="6 6">
+ <path id="l1" d="M330 130 L520 270" stroke="#a78bfa" stroke-opacity=".5"/>
+ <path id="l2" d="M330 205 L520 270" stroke="#a78bfa" stroke-opacity=".5"/>
+ <path id="l3" d="M330 280 L520 270" stroke="#a78bfa" stroke-opacity=".5"/>
+ <path id="l4" d="M330 355 L520 270" stroke="#a78bfa" stroke-opacity=".5"/>
+ <path id="l5" d="M330 430 L520 270" stroke="#a78bfa" stroke-opacity=".5"/>
+ <path id="r1" d="M680 270 L870 130" stroke="#42d392" stroke-opacity=".5"/>
+ <path id="r2" d="M680 270 L870 205" stroke="#42d392" stroke-opacity=".5"/>
+ <path id="r3" d="M680 270 L870 280" stroke="#42d392" stroke-opacity=".5"/>
+ <path id="r4" d="M680 270 L870 355" stroke="#42d392" stroke-opacity=".5"/>
+ <path id="r5" d="M680 270 L870 430" stroke="#42d392" stroke-opacity=".5"/>
+ <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/>
+</g>
+<g filter="url(#g)">
+ <circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#l1"/></animateMotion></circle>
+ <circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" begin=".5s" repeatCount="indefinite"><mpath href="#l3"/></animateMotion></circle>
+ <circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" begin="1s" repeatCount="indefinite"><mpath href="#l5"/></animateMotion></circle>
+ <circle r="5" fill="#42d392"><animateMotion dur="2.4s" begin=".3s" repeatCount="indefinite"><mpath href="#r2"/></animateMotion></circle>
+ <circle r="5" fill="#42d392"><animateMotion dur="2.4s" begin=".8s" repeatCount="indefinite"><mpath href="#r4"/></animateMotion></circle>
+ <circle r="5" fill="#42d392"><animateMotion dur="2.4s" begin="1.3s" repeatCount="indefinite"><mpath href="#r1"/></animateMotion></circle>
+</g>
+<circle cx="600" cy="270" r="130" fill="url(#core)"><animate attributeName="r" values="110;140;110" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="270" r="82" fill="#121827" stroke="#ff2d55" stroke-width="3"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif" text-anchor="middle">
+ <text x="600" y="258" font-size="20" font-weight="800" fill="#ff2d55">LARAVEL</text>
+ <text x="600" y="282" font-size="20" font-weight="800" fill="#e6edf3">AI CORE</text>
+ <text x="600" y="304" font-family="Consolas,Menlo,monospace" font-size="11" fill="#8b9bb4">any provider</text>
+</g>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#e6edf3">
+ <g fill="#121827" stroke="#a78bfa" stroke-width="2">
+  <rect x="130" y="110" width="200" height="40" rx="20"/><rect x="130" y="185" width="200" height="40" rx="20"/><rect x="130" y="260" width="200" height="40" rx="20"/><rect x="130" y="335" width="200" height="40" rx="20"/><rect x="130" y="410" width="200" height="40" rx="20"/>
+ </g>
+ <g text-anchor="middle"><text x="230" y="136">OpenAI</text><text x="230" y="211">Anthropic Claude</text><text x="230" y="286">Google Gemini</text><text x="230" y="361">Mistral · DeepSeek</text><text x="230" y="436">Local LLMs · Ollama</text></g>
+ <g fill="#121827" stroke="#42d392" stroke-width="2">
+  <rect x="870" y="110" width="200" height="40" rx="20"/><rect x="870" y="185" width="200" height="40" rx="20"/><rect x="870" y="260" width="200" height="40" rx="20"/><rect x="870" y="335" width="200" height="40" rx="20"/><rect x="870" y="410" width="200" height="40" rx="20"/>
+ </g>
+ <g text-anchor="middle"><text x="970" y="136">n8n · Make · Zapier</text><text x="970" y="211">CRM &amp; Marketing</text><text x="970" y="286">WhatsApp · Chatbots</text><text x="970" y="361">Webhooks · APIs</text><text x="970" y="436">Analytics · Growth</text></g>
+</g>
+<text x="600" y="495" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="13" fill="#8b9bb4">swap providers without rewriting the app · fallbacks · cost &amp; token tracking</text>
+</svg>
