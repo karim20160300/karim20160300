@@ -193,8 +193,8 @@ Echo.private(`trips.${tripId}`).listen('TripUpdated', e => updateMap(e.trip));
 ## Let's connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0b0f1a?style=for-the-badge&logo=linkedin&logoColor=42d392" alt="LinkedIn" /></a>
-  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-0b0f1a?style=for-the-badge&logo=gmail&logoColor=ff2d55" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/karim-hamdy-9867b11b8/"><img src="https://img.shields.io/badge/LinkedIn-0b0f1a?style=for-the-badge&logo=linkedin&logoColor=42d392" alt="LinkedIn" /></a>
+  <a href="mailto:eng.karim.hamdy711@gmail.com"><img src="https://img.shields.io/badge/Email-0b0f1a?style=for-the-badge&logo=gmail&logoColor=ff2d55" alt="Email" /></a>
   <a href="https://github.com/karim20160300?tab=repositories"><img src="https://img.shields.io/badge/All_Repos-0b0f1a?style=for-the-badge&logo=github&logoColor=e6edf3" alt="Repositories" /></a>
 </p>
 
